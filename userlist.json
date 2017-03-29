@@ -1,23 +1,23 @@
 [
         {
-            id: 1,
-            first: "Amitabh",
-            last: "Bachchan",
-            age: "74",
-            image: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTs9lsOGYTwL5IiV8EYVtpvcinxkAl9JMznOdyviQOr00ea-Z0l"
+            "id": 1,
+            "first": "Amitabh",
+            "last": "Bachchan",
+            "age": "74",
+            "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTs9lsOGYTwL5IiV8EYVtpvcinxkAl9JMznOdyviQOr00ea-Z0l"
         },
         {
-            id: 2,
-            first: "Shahrukh",
-            last: "Khan",
-            age: "51",
-            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGD4AOuzWWpKCqt54UDpqI5FQY1qzDdgu7wc3kdg4MBFdd4exzOqjVqYk"
+            "id": 2,
+            "first": "Shahrukh",
+            "last": "Khan",
+            "age": "51",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGD4AOuzWWpKCqt54UDpqI5FQY1qzDdgu7wc3kdg4MBFdd4exzOqjVqYk"
         },
         {
-            id: 3,
-            first: "Amir",
-            last: "Khan",
-            age: "52",
-            image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAwMjk3NDUzN15BMl5BanBnXkFtZTcwNjI4MTY0NA@@._V1_UX214_CR0,0,214,317_AL_.jpg"
+            "id": 3,
+            "first": "Amir",
+            "last": "Khan",
+            "age": "52",
+            "image": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAwMjk3NDUzN15BMl5BanBnXkFtZTcwNjI4MTY0NA@@._V1_UX214_CR0,0,214,317_AL_.jpg"
         }
     ]
