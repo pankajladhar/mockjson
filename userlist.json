@@ -19,5 +19,12 @@
             "last": "Khan",
             "age": "52",
             "image": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAwMjk3NDUzN15BMl5BanBnXkFtZTcwNjI4MTY0NA@@._V1_UX214_CR0,0,214,317_AL_.jpg"
+        },
+        {
+            "id": 4,
+            "first": "Amir",
+            "last": "Khan",
+            "age": "52",
+            "image": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAwMjk3NDUzN15BMl5BanBnXkFtZTcwNjI4MTY0NA@@._V1_UX214_CR0,0,214,317_AL_.jpg"
         }
     ]
