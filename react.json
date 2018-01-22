@@ -35,7 +35,7 @@
     "correctAnswer": "False"
   },
   {
-    "question": "Which of the following is used to pass the data from parent to child",
+    "question": "Which of the following is used to pass the data from parent to child ?",
     "answers": ["state", "props"],
     "correctAnswer": "props"
   },
