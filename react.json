@@ -6,7 +6,7 @@
   },
   {
     "question": "ReactJS is an MVC based framework?",
-    "answers": ["True", "False"]
+    "answers": ["True", "False"],
     "correctAnswer": "False"
   },
   {
