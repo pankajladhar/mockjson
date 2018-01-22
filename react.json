@@ -1,0 +1,52 @@
+[
+  {
+    "question": "ReactJS is developed by _____?",
+    "answers": ["Google Engineers", "Facebook Engineers"],
+    "correctAnswer": "Facebook Engineers"
+  },
+  {
+    "question": "ReactJS is an MVC based framework?",
+    "answers": ["True", "False"],
+    "correctAnswer": "False"
+  },
+  {
+    "question": "Which of the following concepts is/are key to ReactJS?",
+    "answers": ["Component-oriented design", "Event delegation model", "Both of the above"],
+    "correctAnswer": "Both of the above"
+  },
+  {
+    "question": "ReactJS focuses on which of the following part when considering MVC?",
+    "answers": ["M (Model)", "V (View)","C (Controller)"],
+    "correctAnswer": "V (View)"
+  },
+  {
+    "question": "Which of the following needs to be updated to achieve dynamic UI updates?",
+    "answers": ["props", "state"],
+    "correctAnswer": "state"
+  },
+  {
+    "question": "Which of the following API is a MUST for every ReactJS component?",
+    "answers": ["getInitialState", "render", "renderComponent"],
+    "correctAnswer": "render"
+  },
+  {
+    "question": "'div' defined within render method is an actual DOM div element",
+    "answers": ["True", "False"],
+    "correctAnswer": "False"
+  },
+  {
+    "question": "Which of the following is used to pass the data from parent to child ?",
+    "answers": ["state", "props"],
+    "correctAnswer": "props"
+  },
+  {
+    "question": "A component in ReactJS could be composed of one or more inner components",
+    "answers": ["True", "false"],
+    "correctAnswer": "True"
+  },
+  {
+    "question": "JSX transformer is a MUST to work with ReactJS",
+    "answers": ["True", "False"],
+    "correctAnswer": "False"
+  }
+]
