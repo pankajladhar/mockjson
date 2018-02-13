@@ -1,0 +1,12 @@
+[
+  {
+    "question": "ReactJS is developed by _____?",
+    "answers": ["Google Engineers", "Facebook Engineers"],
+    "correctAnswer": "Facebook Engineers"
+  },
+  {
+    "question": "ReactJS is an MVC based framework?",
+    "answers": ["True", "False"],
+    "correctAnswer": "False"
+  }
+ ]
