@@ -1,19 +1,65 @@
 {
-  "problemStatment": "\n  <div><p>Given a 32-bit signed integer, reverse digits of an integer.</p>\n\n<p><strong>Example 1:</strong></p>\n\n<pre><strong>Input:</strong> 123\n<strong>Output:</strong> 321\n</pre>\n\n<p><strong>Example 2:</strong></p>\n\n<pre><strong>Input:</strong> -123\n<strong>Output:</strong> -321\n</pre>\n\n<p><strong>Example 3:</strong></p>\n\n<pre><strong>Input:</strong> 120\n<strong>Output:</strong> 21\n</pre>\n\n<p><strong>Note:</strong><br>\nAssume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−2<sup>31</sup>,&nbsp; 2<sup>31&nbsp;</sup>− 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.</p>\n</div>",
+  "title": "Reverse the digits",
+  "duration": 120,
+  "durationUnit": "minutes",
+  "description": "Given a 32-bit signed integer, reverse digits of an integer.",
+  "notes": "Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−231,  231 − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.",
+  "assertions": [
+    "Test.assertEquals(reverse(12), 0);",
+    "Test.assertEquals(reverse(12345), 0);",
+    "Test.assertEquals(reverse(-1234), 2);",
+    "Test.assertEquals(reverse(00123), 2,'should zero');",
+    "Test.assertEquals(reverse(-103000), 1)",
+    "Test.assertEquals(reverse(8e3), 1)",
+    "Test.assertEquals(reverse(004500), 2, 'should ignore adjesent zeros')"
+  ],
   "functionName": "reverse",
-  "defination" : "const reverse = (input) => {\n\n}",
-  "assertations": [
+  "testCases": [
     {
-      "input": [123],
-      "output": 321
+      "inputs": [
+        123
+      ],
+      "output": 321,
+      "failureMsg": "Should reverse the digits"
     },
     {
-      "input": [-123],
-      "output": -321
+      "inputs": [
+        -123
+      ],
+      "output": -321,
+      "failureMsg": "Should reverse the negative digits"
     },
     {
-      "input": [120],
-      "output": 21
+      "inputs": [
+        120
+      ],
+      "output": 21,
+      "failureMsg": "Should ignore the trailing zero"
     }
-  ]
+  ],
+  "rules": [
+    "should be reusable",
+    "minimal code",
+    "consider cyclomatic complexity"
+  ],
+  "examples": [
+    [
+      "reverse(123)",
+      321,
+      "# positive number reversing"
+    ],
+    [
+      "reverse(-123)",
+      -321,
+      "# negative number"
+    ],
+    [
+      "reverse(120)",
+      21,
+      "# removes trailing zeo"
+    ]
+  ],
+  "scaffoldCode": "const reverse = (input) => {\n\t// code goes here\n}",
+  "maxTries": 3,
+  "language": "js"
 }
